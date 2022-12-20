@@ -79,7 +79,52 @@
     }
 }
 @media(max-width:425px){
-
+    header .logo img{
+        margin-left: -100px;
+        margin-right: 100px;
+        margin-bottom: 10px;
+    }
+    .nav-link{
+        font-size: 20px;
+    }
+    .nav-menu.active{
+        left: -100px;
+    }
+    .campus-col{
+        flex-basis: 100%;
+        margin-top: 0px;
+    }
+    .h1{
+        font-size: 70px;
+    }
+    .layer:hover h3{
+        bottom: 20%;
+    }
+    .row1{
+        margin-left: 30%;
+    }
+    .row1 a{
+        margin-bottom: 30px;
+    }
+    .row2{
+        margin-left: 10px;
+    }
+    .row2 h4{
+        font-size: 14px;
+    }
+    .row2 a{
+        margin-top: -1px;
+    }
+    .row3 h4{
+        font-size: 12px;
+        margin-left: -5px;
+        margin-right: 5px;
+    }
+    .row4 h4{
+        margin-left: -5px;
+        font-size: 11px;
+        margin-right: 20px;
+    }
 }
 @media(max-width:375px){
 

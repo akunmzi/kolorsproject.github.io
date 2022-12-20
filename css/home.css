@@ -7,18 +7,7 @@
     text-decoration: none;
     list-style: none;
 }
-nav .logo img
-{
-    width: 300px;
-    height: 100px;
-    margin-left: -70px;
-    margin-top: 20px;
-    margin-bottom: 30px;
-}
-/* kolorswritings logo code ends here*/
-
-/* navbar code starts here */
-nav{
+header{
     margin-top: -10px;
     position: fixed;
     top: 0;
@@ -32,22 +21,6 @@ nav{
     z-index: 100000;
     text-transform: uppercase;
     font-family: 'Poppins',sans-serif;
-}
-
-.checkbtn{
-    font-size: 30px;
-    color:white;
-    line-height: 80px;
-    margin-right: 40px;
-    cursor: pointer;
-    display: none;
-}
-#check{
-    display: none;
-}
-
-
-nav.sticky{
     border-bottom: 2.0px solid darkgreen;
     background-color:white;
     height: 15vh;
@@ -55,37 +28,122 @@ nav.sticky{
     padding: 0 100px;
     z-index: 1;
     text-align: center;
-    /* padding: 5px 100px;
-    background-color: #fff; */
 }
-nav.sticky ul li a{
-    color: #000;
+header .logo img
+{
+    width: 300px;
+    height: 100px;
+    margin-left: -100px;
+    margin-top: 20px;
+    margin-right: 400px;
+    margin-bottom: 30px;
 }
-nav ul{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-nav ul li{
-    margin: 10px;
-    padding: 15px;
-    position: relative;
+li{
     list-style: none;
 }
-nav ul li a{
-    float: right;
-    margin-top: -30px;
-    position: relative;
-    margin: 0 15px;
+a{
+    font-size: 16px;
+    color:black;
     text-decoration: none;
-    color: #fff;
-    letter-spacing:2px;
-    font-weight: 500px;
-    transition: 0.5s;
 }
-nav ul li a:hover{
+.navbar{
+    min-height: 70px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 0 40px;
+}
+.nav-menu{
+    display: flex;
+    justify-content: space-bettween;
+    align-items: center;
+    gap: 60px;
+}
+.nav-link{
+    padding-left: 40px;
+    transition: 0.7s ease;
+
+}
+.nav-link:hover{
     color: #4CBB17;
+}
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+.bar{
+    display: block;
+    width: 40px;
+    height: 6px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
+}
+.footer2{
+    display: none;
+}
+@media(max-width:768px){
+    header{
+        background-color: #4CBB17;
+    }
+    header .logo img{
+        width: 175px;
+        height: 90px;
+        margin-left: -5rem;
+        margin-top: 30px;
+        margin-right: 400px;
+        margin-bottom: 30px;
+    }
+    .hamburger{
+        display: block;
+        padding-right: 10px;
+    }
+
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    .nav-menu{
+        position: fixed;
+        left: -100%;
+        top: 120px;
+        gap: 0;
+        flex-direction: column;
+        background-color:#4CBB17;
+        width: 100%;
+        height: 50%;
+        text-align: center;
+        transition: 0.3s;
+    }
+    .nav-link{
+        margin-top: 100px;
+        font-size: 40px;
+        text-transform: uppercase;
+        font-family: 'Popins',sans-serif;
+    }
+    nav ul li{
+        margin-top: 40px;
+    }
+    a{
+        color: white;
+    }
+
+    .nav-item{
+        margin-top: 200px;
+        margin:30px 0;
+    }
+
+    .nav-menu.active{
+        left: 0;
+    }
 }
 
 .banner{
@@ -552,6 +610,9 @@ nav ul li a:hover{
 }
 .row2 a:hover{
     color: orange;
+}
+.whyus2{
+    display: none;
 }
 .row1 a{
  color: orange;

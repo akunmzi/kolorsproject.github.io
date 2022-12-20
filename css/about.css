@@ -55,7 +55,7 @@ a{
 }
 .nav-menu{
     display: flex;
-    justify-content: space-bettween;
+    justify-content: space-between;
     align-items: center;
     gap: 60px;
 }
@@ -89,11 +89,12 @@ a{
         height: 90px;
         margin-left: -5rem;
         margin-top: 30px;
-        margin-right: 400px;
         margin-bottom: 30px;
     }
     .hamburger{
         display: block;
+        float: right;
+        margin-right: 10px;
         padding-right: 10px;
     }
 
