@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="fonts-6/css/all.css">
+    <link rel="stylesheet" href="./css/contact.css">
+    <!-- <script defer src="./srcipt/contact.js"></script> -->
+</head>
+<style>
+    /* .hero{
+        background-image: linear-gradient(rgb(0,0,0,0.7), #3551b5), url(./images/k.jpg);
+    } */
+</style>
+<body>
+    <header>
+      <nav class="navbar">
+        <!-- logo code starts here -->
+        <a href="index.html" class="logo"><img src="./images/logo.jpg"></a>        
+        <!-- logo code ends here -->
+        
+        <ul class="nav-menu">
+          <li class="item">
+            <a href="home.html" class="nav-link">Home</a>
+          </li>
+          <li class="item">
+            <a href="about.html" class="nav-link">Who we are</a>
+          </li>
+          <li class="item">
+            <a href="team.html" class="nav-link">Our team</a>
+          </li>
+          <li class="item">
+            <a href="services.html" class="nav-link">what we do</a>
+          </li>
+          <li class="item">
+            <a href="contact.html" class="nav-link">contact</a>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </header>
+    <div class="container2">
+      <form onsubmit="sendEmail(); reset(); return false;">
+        <h3>GET IN TOUCH</h3>
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="email" id="email" placeholder="Email id" required>
+        <input type="text" id="phone" placeholder="Phone no." required>
+        <textarea id="message"  rows="4" placeholder="How can we help you?"></textarea>
+        <button type="submit">Submit<i class="fa-solid fa-paper-plane"></i></button>
+      </form>
+    </div>
+        <footer class="footer">
+            <div class="container">
+              <div class="row1">
+                <a href="https://facebook.com"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://twitter.com"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://instagram"><i class="fa-brands fa-instagram"></i></a>
+              </div>
+      
+              <div class="row2">
+                <h4>phone:</h4>
+                <a href='tel: +2348025409691'>08028496295</a>
+                <span class="phone"> |</span> <h4>Email<i class="fa-solid fa-envelope"></i>:</h4> <h4 class="h4">kolorsbiz@gmail.com</h4>
+              </div>
+              
+              <div class="row3">
+                <h4> 520 NEWPORT CENTER DRIVE, STE 750, NEWPORT BEACH, CA 92660</h4>
+              </div>
+              <div class="row4">
+                <h4>© 2022 BICK LAW LLP. ALL RIGHTS RESERVED. SITEMAP | ATTORNEY ADVERTISING | LAW FIRM WEBSITE DESIGN BY PAPERSTREET</h4>
+              </div>
+            </div>
+        </footer>
+        <script src="./java/contact.js"></script>
+</body>
+</html>

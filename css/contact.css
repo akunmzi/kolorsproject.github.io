@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+/* kolorswritings logo code ends here*/
+
+/* navbar code starts here */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+}
+header{
+    margin-top: -10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    transition: 0.6s;
+    padding: 0px 100px;
+    z-index: 100000;
+    text-transform: uppercase;
+    font-family: 'Poppins',sans-serif;
+    border-bottom: 2.0px solid darkgreen;
+    background-color:white;
+    height: 15vh;
+    width: 100%;
+    padding: 0 100px;
+    z-index: 1;
+    text-align: center;
+}
+header .logo img
+{
+    width: 300px;
+    height: 100px;
+    margin-left: -100px;
+    margin-top: 20px;
+    margin-right: 400px;
+    margin-bottom: 30px;
+}
+li{
+    list-style: none;
+}
+a{
+    font-size: 16px;
+    color:black;
+    text-decoration: none;
+}
+.navbar{
+    min-height: 70px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 0 40px;
+}
+.nav-menu{
+    display: flex;
+    justify-content: space-bettween;
+    align-items: center;
+    gap: 60px;
+}
+.nav-link{
+    padding-left: 40px;
+    transition: 0.7s ease;
+
+}
+.nav-link:hover{
+    color: #4CBB17;
+}
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+.bar{
+    display: block;
+    width: 40px;
+    height: 6px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
+}
+@media(max-width:768px){
+    header{
+        background-color: #4CBB17;
+    }
+    header .logo img{
+        width: 175px;
+        height: 90px;
+        margin-left: -5rem;
+        margin-top: 30px;
+        margin-right: 400px;
+        margin-bottom: 30px;
+    }
+    .hamburger{
+        display: block;
+        padding-right: 10px;
+    }
+
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    .nav-menu{
+        position: fixed;
+        left: -100%;
+        top: 120px;
+        gap: 0;
+        flex-direction: column;
+        background-color:#4CBB17;
+        width: 100%;
+        height: 50%;
+        text-align: center;
+        transition: 0.3s;
+    }
+    .nav-link{
+        margin-top: 100px;
+        font-size: 40px;
+        text-transform: uppercase;
+        font-family: 'Popins',sans-serif;
+    }
+    nav ul li{
+        margin-top: 40px;
+    }
+    a{
+        color: white;
+    }
+
+    .nav-item{
+        margin-top: 200px;
+        margin:30px 0;
+    }
+
+    .nav-menu.active{
+        left: 0;
+    }
+}
+/* 
+/* kolorswritings logo code ends here*/
+
+/* navbar code starts here */
+/* eader{
+    
+}h */
+/* header.sticky{
+    border-bottom: 2.0px solid darkgreen;
+    background-color:white;
+    height: 15vh;
+    width: 100%;
+    padding: 0 100px;
+    z-index: 1;
+    text-align: center; */
+    /* padding: 5px 100px;
+    background-color: #fff; */
+/* }
+header.sticky ul li a{
+    color: #000;
+}
+header ul{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul li{
+    
+    position: relative;
+    list-style: none;
+}
+header ul li a{
+    float: right;
+    margin-top: -30px;
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #000;
+    letter-spacing:2px;
+    font-weight: 500px;
+    transition: 0.5s;
+}
+header ul li a:hover{
+    color: #4CBB17;
+}  */
+/* form */
+.container2{
+    width: 100%;
+    height: 100vh;
+    background: #4CBB17;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    background: white;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+form h3{
+    color: #555;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+form input,form textarea{
+    border: 0;
+    margin: 10px 0;
+    padding: 20px;
+    outline: none;
+    background: #f5f5f5;
+    font-size: 16px;
+}
+form button{
+    padding: 15px;
+    background: orange;
+    color: #fff;
+    font-size: 18px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    margin-top: 10px;
+    /* margin: 20px auto 0; */
+    border-radius: 10px;
+}
+/* footer */
+.footer{
+    margin-top: 20vh;
+    background-color: #24262b;
+    width: 100%;
+    height: 30vh;
+}
+.row1{
+    font-size: 20px;
+    margin-left: 43%;
+    display: flex;
+}
+.row2{
+    font-size: 20px;
+    margin-left: 32%;
+    display: flex;
+    margin-bottom: 10px;
+}
+.row2 h4{
+    font-size: 20px;
+    margin-left: 5px;
+    color:  #bbb;
+    font-weight: 100;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Poppins',sans-serif;
+}
+.row3 h4{
+    font-size: 20px;
+    margin-left: -100px;
+    color:  #bbb;
+    font-weight: 100;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Poppins',sans-serif;
+}
+.row2 .h4{
+    color: white;
+    font-family: 'Poppins',sans-serif;
+    text-transform: lowercase;
+}
+.row2 h4 i{
+    color: orange;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.row2 a{
+    color: white;
+    text-decoration: none;
+    margin-left: 5px;
+    padding-left: 5px;
+    padding-right: 10px;
+    margin-top: 0px;
+}
+.row2 a:hover{
+    color: orange;
+}
+.row1 a{
+ color: orange;
+ margin-top: 70px;
+ margin-left: -30px;
+ margin-right: 100px;
+ margin-bottom: 50px;
+ font-size: 18px;
+}
+.row1 a:hover{
+    color: #fff;
+}
+.row4{
+    margin-left: 20%;
+    color: #bbb;
+    font-family: 'Poppins',sans-serif;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.phone{
+    color: orange;
+    margin-right: 10px;
+}

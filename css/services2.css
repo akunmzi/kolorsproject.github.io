@@ -1,0 +1,103 @@
+/* header */
+
+/* body */
+@media(max-width:768px){
+    .h1{
+        font-size: 80px;
+        margin-bottom: 30px;
+    }
+    .banner h1{
+       font-size: 30px;
+       margin-left: -40px;
+       margin-bottom: 10px;
+    }
+    header ul li a{
+        display: none;
+    }
+    .core{
+        margin-top: -550px;
+       margin-left: 60px;
+       margin-bottom: -50px;
+       font-size: 60px;
+    }
+    .container{
+        width: 90%;
+    }
+    .content-section{
+        font-size: 20px;
+        margin-top: 500px;
+        float: right;
+        width: 100%;
+    }
+    .image-section{
+        margin-top: -700px;
+        float: left;
+        width: 80%;
+    }
+    .content-section .title{
+        font-size: 13px;
+        
+    }
+    .content-section .content h3{
+        font-size:20px ;
+    }
+    .section1{
+        margin-top: -500px;
+    }
+    .section1 .image-section img{
+       margin-top: 0px;
+       margin-bottom: 5px;
+    }
+    .section1 .content-section{
+        margin-bottom: 50px;
+    }
+    /* section */
+    .section{
+        margin-bottom: 50px;
+    }
+    .section .image-section img{
+        margin-bottom: 10px;
+        width: 90%;
+    }
+
+    /* others */
+    .others{
+        margin-left: 150px;
+        margin-bottom: -200px;
+    }
+    .section4 .content-section{
+        margin-top: -200px;
+    }
+}
+
+/* footer */
+@media(max-width:768px){
+    .footer{
+        margin-top: 200px;
+    }
+    .row1{
+        margin-left: 40%;
+    }
+    .row2{
+        font-size: 14px;
+        margin-left: 120px;
+    }
+    .row2 a{
+        font-size: 18px;
+    }
+    .row3{
+        font-size: 12px;
+        margin-left: 10%;
+    }
+    .row4 h4{
+        font-size: 11px;
+        margin-left: -152px;
+        text-align: center;
+    }
+}
+@media(max-width:425px){
+
+}
+@media(max-width:375px){
+
+}
