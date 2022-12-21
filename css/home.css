@@ -200,80 +200,6 @@ a{
 .content-section .social i:hover{
     color: #3d3d3d;
 }
-@media(max-width:700px){
-    .about{
-        font-weight: 400;
-        margin-top: 50px;
-        margin-left: 20px;
-    }
-    .about p{
-        margin-top: 20px;
-        text-align: left;
-        justify-content: left;
-    }
-    .about .about-img{
-        display: flex;
-        margin-left: 90px;
-        
-    }
-    /* .about-img .logo2{
-        margin-left: 10px;
-        margin-right: 200px;
-    } */
-    .about-img .logo3{
-        margin-left: 10px;
-    }
-}
-@media(max-width:700px){
-    .section{
-        margin-top: 50px;
-        font-family: 'Poppins', sans-serif;
-        width: 100%;
-        min-height: 100vh;
-        background-color: #fff;
-        margin-bottom: 100px;
-    }
-    .container{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-    }
-    .content-section{
-        float: left;
-        width: 100%;
-    }
-    .image-section{
-        float: right;
-        width: 100%;
-    }
-    .image-section img{
-        width: 100%;
-        height: 40%;
-    }
-    .content-section .title{
-        text-transform: uppercase;
-        font-size: 28px;
-        color: black;
-    }
-    .content-section .content h3{
-        margin-top: 18px;
-        color: rgb(28, 28, 28);
-        font-size: 21px;
-    }
-    .content-section .social{
-        margin:40px 40px;
-    }
-    .content-section .social i{
-        color: black;
-        font-size: 30px;
-        padding: 0px 10px ;
-    }
-    .content-section .social i:hover{
-        color: #3d3d3d;
-    }
-}
-
-
 /*whyus*/
 .whyus img{
     width: 100%;
@@ -312,6 +238,151 @@ a{
     margin-left: 25%;
     margin-top: 30px;
 }
+/* services */
+.services{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 300px;
+    margin-bottom: 100px;
+}
+.services a{
+    width: 100%;
+}
+.services p{
+    margin-top: 20px;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+.container2{
+    width: 100%;
+    padding: 50px;
+    background-color: darkgreen;
+    height: 20vh;
+}
+.container2:hover{
+    background-color: rgb(72, 152, 72);
+    transition: all 0.3s ease-in-out;
+}
+.container3{
+    width:  100%;
+    padding: 50px;
+    background-color: #4CBB17;
+    height: 20vh;
+}
+.container3:hover {
+    background-color: #68af46;
+}
+.container4{
+    width:  100%;
+    padding: 50px;
+    background-color: #32CD32;
+    height: 20vh;
+}
+.container4:hover{
+    background-color: #42c542;
+}
+.container5{
+    width: 100%;
+    padding: 50px;
+    background-color:orange;
+    height: 20vh;
+}
+.container5:hover{
+    background-color:rgb(220, 155, 34);
+}
+.container6{
+    width: 100%;
+    padding: 50px;
+    background-color: darkorange;
+    height: 20vh;
+}
+.container6:hover{
+    background-color: rgb(213, 144, 61);
+}
+@media(max-width:700px){
+    .services{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
+/* footer */
+.footer{
+    background-color: #24262b;
+    width: 100%;
+    height: 30vh;
+}
+.row1{
+    font-size: 20px;
+    margin-left: 43%;
+    display: flex;
+}
+.row2{
+    font-size: 20px;
+    margin-left: 32%;
+    display: flex;
+    margin-bottom: 10px;
+}
+.row2 h4,.row3 h4{
+    font-size: 20px;
+    margin-left: 5px;
+    color:  #bbb;
+    font-weight: 100;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Poppins',sans-serif;
+}
+.row2 .h4{
+    color: white;
+    font-family: 'Poppins',sans-serif;
+    text-transform: lowercase;
+}
+.row2 h4 i{
+    color: orange;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.row2 a{
+    color: white;
+    text-decoration: none;
+    margin-left: 5px;
+    padding-left: 5px;
+    padding-right: 10px;
+    margin-top: 0px;
+}
+.row2 a:hover{
+    color: orange;
+}
+.whyus2{
+    display: none;
+}
+.row1 a{
+ color: orange;
+ margin-top: -20px;
+ margin-left: -30px;
+ margin-right: 100px;
+ margin-bottom: 50px;
+ font-size: 18px;
+}
+.row1 a:hover{
+    color: #fff;
+}
+.row4{
+    margin-left: 2%;
+    color: #bbb;
+    font-family: 'Poppins',sans-serif;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.phone{
+    color: orange;
+    margin-right: 10px;
+}
+
+
 
 @media(max-width:700px){
     nav ul{
@@ -464,6 +535,7 @@ a{
         margin-top: 5px;
     }
     
+    
     /*
     
     .section2{
@@ -494,149 +566,77 @@ a{
     }
      */
 }
-
-/* services */
-.services{
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    margin-top: 300px;
-    margin-bottom: 100px;
-}
-.services a{
-    width: 100%;
-}
-.services p{
-    margin-top: 20px;
-    font-size: 30px;
-    text-align: center;
-    color: white;
-}
-.container2{
-    width: 100%;
-    padding: 50px;
-    background-color: darkgreen;
-    height: 20vh;
-}
-.container2:hover{
-    background-color: rgb(72, 152, 72);
-    transition: all 0.3s ease-in-out;
-}
-.container3{
-    width:  100%;
-    padding: 50px;
-    background-color: #4CBB17;
-    height: 20vh;
-}
-.container3:hover {
-    background-color: #68af46;
-}
-.container4{
-    width:  100%;
-    padding: 50px;
-    background-color: #32CD32;
-    height: 20vh;
-}
-.container4:hover{
-    background-color: #42c542;
-}
-.container5{
-    width: 100%;
-    padding: 50px;
-    background-color:orange;
-    height: 20vh;
-}
-.container5:hover{
-    background-color:rgb(220, 155, 34);
-}
-.container6{
-    width: 100%;
-    padding: 50px;
-    background-color: darkorange;
-    height: 20vh;
-}
-.container6:hover{
-    background-color: rgb(213, 144, 61);
-}
 @media(max-width:700px){
-    .services{
+    .about{
+        font-weight: 400;
+        margin-top: 50px;
+        margin-left: 20px;
+    }
+    .about p{
+        margin-top: 20px;
+        text-align: left;
+        justify-content: left;
+    }
+    .about .about-img{
         display: flex;
-        flex-direction: column;
-        width: 100%;
+        margin-left: 90px;
+        
+    }
+    /* .about-img .logo2{
+        margin-left: 10px;
+        margin-right: 200px;
+    } */
+    .about-img .logo3{
+        margin-left: 10px;
     }
 }
-
-/* footer */
-.footer{
-    background-color: #24262b;
-    width: 100%;
-    height: 30vh;
-}
-.row1{
-    font-size: 20px;
-    margin-left: 43%;
-    display: flex;
-}
-.row2{
-    font-size: 20px;
-    margin-left: 32%;
-    display: flex;
-    margin-bottom: 10px;
-}
-.row2 h4,.row3 h4{
-    font-size: 20px;
-    margin-left: 5px;
-    color:  #bbb;
-    font-weight: 100;
-    text-align: center;
-    text-transform: uppercase;
-    font-family: 'Poppins',sans-serif;
-}
-.row2 .h4{
-    color: white;
-    font-family: 'Poppins',sans-serif;
-    text-transform: lowercase;
-}
-.row2 h4 i{
-    color: orange;
-    margin-left: 5px;
-    margin-right: 5px;
-}
-.row2 a{
-    color: white;
-    text-decoration: none;
-    margin-left: 5px;
-    padding-left: 5px;
-    padding-right: 10px;
-    margin-top: 0px;
-}
-.row2 a:hover{
-    color: orange;
-}
-.whyus2{
-    display: none;
-}
-.row1 a{
- color: orange;
- margin-top: -20px;
- margin-left: -30px;
- margin-right: 100px;
- margin-bottom: 50px;
- font-size: 18px;
-}
-.row1 a:hover{
-    color: #fff;
-}
-.row4{
-    margin-left: 2%;
-    color: #bbb;
-    font-family: 'Poppins',sans-serif;
-    font-size: 15px;
-    margin-top: 10px;
-}
-.phone{
-    color: orange;
-    margin-right: 10px;
+@media(max-width:700px){
+    .section{
+        margin-top: 50px;
+        font-family: 'Poppins', sans-serif;
+        width: 100%;
+        min-height: 100vh;
+        background-color: #fff;
+        margin-bottom: 100px;
+    }
+    .container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .content-section{
+        float: left;
+        width: 100%;
+    }
+    .image-section{
+        float: right;
+        width: 100%;
+    }
+    .image-section img{
+        width: 100%;
+        height: 40%;
+    }
+    .content-section .title{
+        text-transform: uppercase;
+        font-size: 28px;
+        color: black;
+    }
+    .content-section .content h3{
+        margin-top: 18px;
+        color: rgb(28, 28, 28);
+        font-size: 21px;
+    }
+    .content-section .social{
+        margin:40px 40px;
+    }
+    .content-section .social i{
+        color: black;
+        font-size: 30px;
+        padding: 0px 10px ;
+    }
+    .content-section .social i:hover{
+        color: #3d3d3d;
+    }
 }
 
 @media (max-width: 700px){
