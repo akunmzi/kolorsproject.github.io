@@ -14,18 +14,18 @@
     }
     .banner{
         width: 100%;
-        background-size: cover;
+        /* background-size: contain ; */
         background-position: center;
         position: relative;
     }
     .banner h1{
-        padding-top: 200px;
+        padding-top: 10px;
     }
     .banner h3{
-        font-size: 10px;
+        font-size: 11px;
     }
     .hero-btn{
-        margin-left: 50px;
+        margin-left: -50px;
         padding: 10px 30px;
     }
     .about{
@@ -39,6 +39,10 @@
     .about-img .logo3{
         height: 100px;
         width: 100px;
+    }
+    .about p{
+        text-align-last: left;
+        font-size: 16px;
     }
     .content-section .title{
         font-size: 20px;
@@ -58,8 +62,11 @@
     .whyus2 h1{
         font-size: 20px;
     }
+    .section2 .container p{
+        font-size: 14px;
+    }
     .section2 .container{
-        font-size: 20px;
+        margin-bottom: 10px;
     }
     .content-section .title{
         font-size: 14px;
@@ -78,8 +85,12 @@
         font-size: 30px;
     }
     .services a{
+        width: 100%;
         font-size: 14px;
         padding: 10px;
+    }
+    .services p{
+        margin-top: 5px;
     }
     .footer{
         display: none;
@@ -90,19 +101,19 @@
         height: 40vh;
     }
     .footer2 .row1{
-        font-size: 20px;
+        font-size: 16px;
         margin-left: 39%;
         display: flex;
     }
     .footer2 .row2{
-        font-size: 10px;
+        font-size: 8px;
         margin-left: 10px;
         display: flex;
         margin-bottom: 10px;
     }
     .footer2 .row2 h4,.footer2 .row3 h4{
-        font-size: 14px;
-        margin-left: 5px;
+        font-size: 10px;
+        margin-left: 0px;
         color:  #bbb;
         font-weight: 100;
         text-align: center;
@@ -110,7 +121,7 @@
         font-family: 'Poppins',sans-serif;
     }
     .footer2 .row3 h4{
-        font-size: 12px;
+        font-size: 8px;
     }
     .footer2 .row2 .h4{
         color: white;
