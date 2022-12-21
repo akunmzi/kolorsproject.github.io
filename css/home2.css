@@ -90,8 +90,12 @@
         font-size: 10px;
         padding: 10px;
     }
-    .services p{
+    .services a p{
         margin-top: -15px;
+    }
+    .services .container2, .services .container3, .services .container4,.services .container5,.services .container6{
+        font-size: 10px;
+        padding: 10px;
     }
     .footer{
         display: none;
