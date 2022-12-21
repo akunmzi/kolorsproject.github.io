@@ -1,5 +1,229 @@
 /* header */
-
+@media all and (max-width:480px){
+    header{
+        height: 25vh;
+        width: 100%;
+    }
+    header .logo img{
+        margin-left: -100px;
+        margin-right: 100px;
+        margin-bottom: 10px;
+    }
+    .banner{
+        width: 100%;
+        height: 50vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    .banner h1{
+        padding-top: 100px;
+    }
+    .banner h3{
+        font-size: 11px;
+    }
+    .hero-btn{
+        padding: 10px 30px;
+        font-size: 14px;
+        margin-left: -200px;
+        padding: 10px 30px;
+    }
+    .about{
+        text-align: left;
+    }
+    .about-img .logo2{
+        margin-left: 50px;
+        height: 100px;
+        width: 100px;
+    }
+    .about-img .logo3{
+        height: 100px;
+        width: 100px;
+    }
+    .about p{
+        text-align: left;
+        font-size: 16px;
+    }
+    .content-section .title{
+        font-size: 20px;
+    }
+    .content-section .content h3{
+        font-size: 16px;
+    }
+    .nav-link{
+        font-size: 20px;
+    }
+    .nav-menu.active{
+        left: -90px;
+    }
+    .whyus2 img{
+        width: 100%;
+    }
+    .whyus2 h1{
+        font-size: 20px;
+    }
+    .section2 .container p{
+        font-size: 14px;
+    }
+    .section2 .container{
+        margin-bottom: 10px;
+    }
+    .content-section .title{
+        font-size: 14px;
+    }
+    .content-section .content h3{
+        font-size: 16px;
+    }
+    .section{
+        margin-bottom: -100px;
+    }
+    .section2{
+        margin-top: 200px;
+        margin-bottom: 200px;
+    }
+    .section2 .container{
+        font-size: 30px;
+    }
+    .services{
+        display: flex;
+        flex-direction: column;
+        margin-top: -10px;
+    }
+    .services a{
+        width: 100%;
+        font-size: 10px;
+        padding: 10px;
+    }
+    .services a p{
+        margin-top: -15px;
+    }
+    .services .container2, .services .container3, .services .container4,.services .container5,.services .container6{
+        font-size: 8px;
+        padding: 10px;
+    }
+    .container2{
+        width: 100%;
+        padding: 50px;
+        background-color: darkgreen;
+        height: 20vh;
+    }
+    .container2:hover{
+        background-color: rgb(72, 152, 72);
+        transition: all 0.3s ease-in-out;
+    }
+    .container3{
+        width:  100%;
+        padding: 50px;
+        background-color: #4CBB17;
+        height: 20vh;
+    }
+    .container3:hover {
+        background-color: #68af46;
+    }
+    .container4{
+        width:  100%;
+        padding: 50px;
+        background-color: #32CD32;
+        height: 20vh;
+    }
+    .container4:hover{
+        background-color: #42c542;
+    }
+    .container5{
+        width: 100%;
+        padding: 50px;
+        background-color:orange;
+        height: 20vh;
+    }
+    .container5:hover{
+        background-color:rgb(220, 155, 34);
+    }
+    .container6{
+        width: 100%;
+        padding: 50px;
+        background-color: darkorange;
+        height: 20vh;
+    }
+    .container6:hover{
+        background-color: rgb(213, 144, 61);
+    }    
+    .footer{
+        display: none;
+    }
+    .footer2{
+        display: block;
+        background-color: black;
+        height: 40vh;
+    }
+    .footer2 .row1{
+        font-size: 16px;
+        margin-left: 39%;
+        display: flex;
+    }
+    .footer2 .row2{
+        font-size: 8px;
+        margin-left: 10px;
+        display: flex;
+        margin-bottom: 10px;
+    }
+    .footer2 .row2 h4,.footer2 .row3 h4{
+        font-size: 10px;
+        margin-left: 0px;
+        color:  #bbb;
+        font-weight: 100;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: 'Poppins',sans-serif;
+    }
+    .footer2 .row3 h4{
+        font-size: 8px;
+    }
+    .footer2 .row2 .h4{
+        color: white;
+        font-family: 'Poppins',sans-serif;
+        text-transform: lowercase;
+    }
+    .footer2 .row2 h4 i{
+        color: orange;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .footer2 .row2 a{
+        color: white;
+        font-size: 10px;
+        text-decoration: none;
+        margin-left: 5px;
+        padding-left: 5px;
+        padding-right: 10px;
+        margin-top: 0px;
+    }
+    .footer2 .row2 a:hover{
+        color: orange;
+    }
+    .footer2 .row1 a{
+     color: orange;
+     margin-top: -20px;
+     margin-left: -30px;
+     margin-right: 100px;
+     margin-bottom: 50px;
+     font-size: 18px;
+    }
+    .footer2 .row1 a:hover{
+        color: #fff;
+    }
+    .footer2 .row4 h4{
+        margin-left: 2%;
+        color: #bbb;
+        font-family: 'Poppins',sans-serif;
+        font-size: 10px;
+        margin-top: 10px;
+    }
+    .footer2 .phone{
+        color: orange;
+        margin-right: 10px;
+    }
+}
 /* body */
 @media(max-width:768px){
     .h1{
